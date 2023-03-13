@@ -11,6 +11,8 @@ const SplashScreen = () => {
 
     const { nome } = useContext(UserInfoContext)
 
+    console.log('testando')
+
     return (
         <>
             <ExpoStatusBar/>
