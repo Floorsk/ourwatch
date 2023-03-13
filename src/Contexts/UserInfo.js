@@ -5,7 +5,7 @@ export const UserInfoContext = createContext({})
 function UserInfoProvider({ children }) {
 
     return (
-        <UserInfoContext.Provider value={{ }}>
+        <UserInfoContext.Provider value={{ nome: "Davi" }}>
             {children}
         </UserInfoContext.Provider>
     )

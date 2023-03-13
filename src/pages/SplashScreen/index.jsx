@@ -9,7 +9,7 @@ import {
 
 const SplashScreen = () => {
 
-    const { } = useContext(UserInfoContext)
+    const { nome } = useContext(UserInfoContext)
 
     return (
         <>
